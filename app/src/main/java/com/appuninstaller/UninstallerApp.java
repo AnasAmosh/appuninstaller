@@ -11,6 +11,9 @@ public class UninstallerApp extends Application {
 
         if (!BuildConfig.DEBUG) {
             // Start crashlytics on non-debug builds only
+            /**
+             * test anas amosh
+             */
             Crashlytics.start(this);
         }
     }
